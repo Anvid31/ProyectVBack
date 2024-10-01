@@ -1,12 +1,12 @@
-import mongoose from 'mongoose'
+import mongoose from "mongoose";
 
 const gastosSchema = new mongoose.Schema({
-    nombre: String,
-    descripcion: String,
-    cantidad: Number,
-    fecha: String
-})
+  nombre: String,
+  descripcion: String,
+  cantidad: Number,
+  fecha: String,
+});
 
-const DispositivoModel = mongoose.model('Gastos', gastosSchema)
+const DispositivoModel = mongoose.model("Gastos", gastosSchema);
 
-export {DispositivoModel}
+export { DispositivoModel };
